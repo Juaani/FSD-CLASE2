@@ -1,0 +1,62 @@
+#Titulo {
+    color: tomato;
+}
+
+p.texto{
+color: lightblue;
+}
+
+p.especial{
+    color: green;
+}
+
+div p{
+    color: blue;
+}
+
+div h2, div h3{
+    color: rebeccapurple;
+}
+
+*{
+    font-size: 24px;
+    color: black;    
+}
+
+/*
+.color{
+color:#ff0000 ;
+}
+
+/*
+.color{
+    color: rgb( 0,255,0);
+}
+*/
+.color{
+    /* border: 2px black solid; */
+    /*
+    dotted
+    dashed
+    solid
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px ;
+}
+
+#fondo{
+    background-color: bisque;
+    /* opacity: 0.3;  color completo */
+    background-image: url("coffe.jpg");
+    background-size: cover;
+    height: 400px;   
+
+}
