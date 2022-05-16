@@ -38,23 +38,31 @@ body{
     height: 50px;
 }
 
-@media screen and(min-width: 480px) and (max-width: 480px){
+@media screen and(min-width: 780px) and (max-width: 1024px){
     .encabezado{
         background-color: burlywood;
     }
     .contenido-lateral, .contenido{
+        width: 50%;
+    }
+}
+
+@media screen and(min-width: 480px) and (max-width: 780px){
+    .encabezado{
+        background-color: orange;
+    }
+    .contenido, .contenido-lateral{
         width: 100%;
     }
 }
 
-@media screen and(min-width: 780px) and (max-width: 1020px){
+@media screen and(max-width: 480px) {
     .encabezado{
-        background-color: orange;
+        height: 80px;
+        background-color: burlywood;
     }
-}
 
-@media screen and(min-width: 1024px) and (max-width: 1600px){
-    .encabezado{
-        background-color: red;
+    .contenido,.contenido-lateral{
+        width: 100%;
     }
 }
