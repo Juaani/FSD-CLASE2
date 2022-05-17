@@ -19,8 +19,7 @@ div h2, div h3{
 }
 
 *{
-    font-size: 24px;
-    color: black;    
+    font-size: 24px;  
 }
 
 /*
@@ -53,10 +52,68 @@ color:#ff0000 ;
 }
 
 #fondo{
-    background-color: bisque;
-    /* opacity: 0.3;  color completo */
-    background-image: url("coffe.jpg");
-    background-size: cover;
-    height: 400px;   
+    height: 400px; 
+    background: #f00 url("coffe.jpg") repeat-y center bottom / 100px 100px;
+}
 
+.margen{
+    background-color: chocolate;
+    margin:10px 15px 20px 25px ;
+    padding: 25px 20px 15px 10px;
+    border: solid black;
+    height: 100px;
+    width: 500px;
+    overflow: scroll;
+    outline: 11px solid red;
+}
+
+.texto{
+    font-family:'Roboto',sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 1px 1px 5px black;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: bisque;
+}
+
+ul{
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+    /* list-style-position:inside ; */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid 1px red;
+    padding: 5px;
+}
+
+th{
+    background-color: tomato;
+    color: aliceblue;
+    text-align: left;
+}
+
+tr:hover{
+    background-color: #aaa;
+    cursor: pointer;
 }
