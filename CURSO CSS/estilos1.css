@@ -113,7 +113,70 @@ th{
     text-align: left;
 }
 
+tr:nth-child(even){
+    /* odd par 
+    even impar */
+    background-color: #eee;
+ }
+
 tr:hover{
     background-color: #aaa;
     cursor: pointer;
+}
+
+span{
+    display: block;
+    /* display: none; desaparece */
+    /* visibility: hidden; desaparece2 */
+   max-width: 300px;
+    background-color: #f00;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    /* position: fixed; */
+    position: sticky;
+    left: 20px; 
+    top: 25px;
+}
+
+.left {
+        float: left;
+        width: 100px;
+        }
+
+.right {
+float: right;
+width: 200px;
+height: 200px;
+}
+
+
+.container {
+    width: 200px;
+}
+
+.colum {
+    border: solid 1 px #1ddd !important;
+    border-radius: 5px;
+    padding: 10 15px;
+    width: 33%;
+}
+
+.inline-block{
+    display: inline-block; /* permite asignar ancho y alto */
+    height: 55px;
+    background-color: #f00;
+    width: 55px;
+}
+
+.center{
+    /* Como centrar elemento */
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
 }
